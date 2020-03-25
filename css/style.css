@@ -167,6 +167,112 @@ nav .about .headline .text{
 }
 
 
+.services-wrapper{
+    background-color: #70bfff;
+    padding: 50px;
+    min-width: 1100px;
+    padding: 169px 0 85px 0 ;
+}
+
+.block-service{
+    display: flex;
+    margin: 0 auto;
+    width: 1080px;
+    justify-content: space-between;
+}
+
+.block-service .cell .content{
+    display: flex;
+    width: 400px;
+    background-color: #fff;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.block-service .cell .text-content{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    box-sizing: border-box;
+    color: #262626;
+}
+
+.block-service .cell .img-content{
+    display: flex;
+    width: 100px;
+    box-sizing: border-box;
+    border-left: 1px solid #9d9d9d;
+    padding: 230 24px;
+}
+
+
+.block-service .content:hover{
+    background-color: #7db7e6;
+}
+
+.block-service .content:hover .icon-shopping{
+    background-image: url(../images/icon-shopping-white.png);
+    border-left: 1px solid white;
+}
+
+.block-service .content:hover .text-content{
+    color: white;
+}
+
+
+.icon-shopping{
+    background-image: url(../images/icon-shopping.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+
+
+
+
+.icon-product{
+    background-image: url(../images/icon-product.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.icon-domestic{
+    background-image: url(../images/icon-domestic.png); 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.icon-organized{
+    background-image: url(../images/icon-organized.png); 
+    background-repeat:no-repeat; 
+    background-position: center;
+}
+
+
+.block-service .cell .services{
+    display: flex;
+    background-image: url(../images/services-tomato.png);
+    min-height: 525px;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+    align-items: center;
+    margin: -100px 0 100px 0;
+}
+
+.block-service .services .services-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: #fff;
+}
+
 
 .blog-block.mainer{
     padding: 100px 0;
