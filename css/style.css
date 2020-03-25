@@ -45,15 +45,15 @@ h1, h2 {
     color: #545454;
 }
 
-.mainer{
+nav .mainer{
     margin: 0 auto;
 }
 
-.mainer .content-wrapper{
+nav .mainer .content-wrapper{
     background-color: #f9f8fb;
 }
 
-.mainer .content{
+nav .mainer .content{
     min-height: 900px;
     min-width: 1200px;
     padding: 50px;
@@ -65,12 +65,12 @@ h1, h2 {
 
 }
 
-.content .menu{
+nav .content .menu{
     display: flex;
     justify-content: space-between;
 }
 
-.menu a{
+nav .menu a{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -79,26 +79,26 @@ h1, h2 {
     border-top: 3px solid transparent;
 }
 
-.menu a:hover{
+nav .menu a:hover{
     border-top: 3px solid #ff6033;
 }
 
 
 
-.content .headline{
+nav .content .headline{
     margin: 260px 0 0 0;
     color: #262626;
     width: 380px;
 
 }
 
-.content .headline .main-headline{
+nav .content .headline .main-headline{
     font-size: 60px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
 
-.content .headline .text{
+nav .content .headline .text{
     margin: 17px 0 0 0;
     display: block;
     font-size: 17px;
@@ -107,7 +107,7 @@ h1, h2 {
     line-height: 27px;
 }
 
-.content .headline button{
+nav .content .headline button{
     width: 200px;
     height: 55px;
     background-color: #ff6033;
@@ -121,16 +121,16 @@ h1, h2 {
     box-shadow: 4px 2px 10px rgba(0,0,0,0.5)
 }
 
-.content .headline button:hover{
+nav .content .headline button:hover{
     background-color: #fb5324;
 }
 
 
-.mainer .about-wrapper{
+nav .mainer .about-wrapper{
     background-color: #00b8b8;
 }
 
-.mainer .about{
+nav .mainer .about{
     margin: 0 auto;
     max-width: 1175px;
     display: flex;
@@ -139,24 +139,24 @@ h1, h2 {
     padding: 50px;
 }
 
-.about .about-image{
+nav .about .about-image{
     width: 560px;
     height: 560px;
     margin-top: 75px 0 0 0;
 } 
 
-.about .headline{
+nav .about .headline{
     margin: 112px 0 0 76px;
 }
 
-.about .headline .main-headline{
+nav .about .headline .main-headline{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;    
     font-size: 90px;
     color: white;
 }
 
-.about .headline .text{
+nav .about .headline .text{
     margin: 8px 0 0 0;
     display: block;
     font-family: 'Raleway', sans-serif;
@@ -165,3 +165,325 @@ h1, h2 {
     color: white;
     line-height: 27px;        
 }
+
+
+
+.blog-block.mainer{
+    padding: 100px 0;
+    min-width: 810px;
+}
+
+
+.blog-block .mainer .headline{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+    color: white;
+}
+
+
+.blog-block .mainer .headline-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    text-align: center;
+    width: 590px;
+    margin: 26px auto 0 auto;
+    line-height: 25px;
+    color: white;
+}
+
+.blog-block .mainer .wrapper{
+    margin: 0 auto;
+    max-width: 1210px;
+}
+
+.blog-block .mainer .news-block{
+    height:310px;
+    width:370px;
+    display: inline-block;
+    margin: 43px 15px 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+.blog-block .mainer .news-block:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.blog-block .news-block .date-block{
+    background-color: #494f5a;
+    height: 60px;
+    width: 60px;
+    margin: 30px 0 123px 30px;
+    opacity: 0.7;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+.blog-block .date-block .day{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+.blog-block .date-block .month{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    text-align: center;
+    display: block;
+    margin: -5px 0 0 0;
+}
+
+
+.blog-block .text-block{
+    color: white;
+
+    width: 307px;
+}
+
+.blog-block .title{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.blog-block .author{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+
+.blog-block .mainer .button{
+    width: 200px;
+    height: 55px;
+    background-color: #f72b3b;
+    display: block;
+    margin: 50px auto 0 auto;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    border: 0;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.blog-block .mainer .button:hover{
+    background-color: #d62635;
+    cursor: pointer;
+}
+
+
+.contact-block {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    padding: 120px 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contact-block h1, .contact-block h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: #262626;
+    margin: 0 0 27px 0;
+}
+
+.contact-block .mainer{
+    text-align: center;
+    margin: 0 auto;
+    max-width:1500px;
+}
+
+.contact-block .mainer .headline-text{
+    margin: 0 auto 33px auto;
+    display: block;
+    width: 340px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #262626;
+    line-height: 25px;
+}
+
+.contact-block .content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-block .form-wrapper{
+    width: 500px;
+}
+
+.contact-block form input{
+    width: 500px;
+    min-height: 50px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+    border: none;
+    border-left: 5px solid transparent;
+    margin: 7.5px 0;
+    padding: 0 20px;
+}
+
+.contact-block form input::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
+
+.contact-block form input:valid{
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+.contact-block form input:focus{
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+.contact-block form input:hover{
+    opacity: 1;
+}
+
+
+.contact-block form .form-button{
+    width: 100px;
+    height: 25px;
+    margin: 20px  0 0 400px;
+    background-color: #00c4c4;
+    border: transparent 5px solid;
+    opacity: 0.5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    padding:0 0 3px 0;
+    border: 2px transparent solid;
+}
+
+.contact-block form .form-button:hover{
+    opacity: 1;
+}
+
+.contact-block form .form-button:active{
+    background-color: #04dbdb;
+}
+
+.contact-block form .form-button:focus{
+    border: 2px solid #355b82;
+    opacity: 1;      
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.contact-block form textarea{
+    min-height: 250px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+    border: none;
+    margin: 7.5px 0 0 0;
+    width: 500px;
+    padding: 20px;
+    resize: none;
+}
+
+.contact-block form textarea:valid{
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+.contact-block form textarea:hover{
+    opacity: 1;
+}
+
+.contact-block form textarea:focus{
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+.contact-block form textarea::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
+
+.contact-block .contact-wrapper{
+    padding: 4px 0 0 0;
+}
+
+.contact-block .contact{
+    margin: 0 10px 0 -10px;
+    text-align: left;
+}
+
+.contact-block .contact .contact-key{
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #262626;    
+}
+
+.contact-block .contact .contact-value{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #262626;
+    line-height: 25px;   
+}
+
+
+footer{
+    min-width: 1000px;
+    height: 90px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 165px;
+    box-sizing: border-box;
+    
+}
+
+footer .text-rights{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #b9b9b9;
+    display: flex;
+    align-self: center;
+    display: block;
+}
+
+footer .logo{
+    display: block;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #b9b9b9;
+    align-self: center;
+}
+
+.rights .author{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    align-self: center;
+    color: #b9b9b9;
+}
+
