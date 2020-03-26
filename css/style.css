@@ -476,19 +476,18 @@ nav .about .headline .text{
 
 
 
-
-.blog-wrapper{
-    background-color :#b07cf7;
+.blog-block-wrapper{
     min-width: 1200px;
-    padding: 100px 0;
+    background-color: #b07cf7;
 }
 
-.blog-block.mainer{
+.blog-block{
     padding: 100px 0;
+    min-width: 810px;
 }
 
 
-.blog-block .mainer .headline{
+.blog-block .headline{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 90px;
@@ -497,7 +496,7 @@ nav .about .headline .text{
 }
 
 
-.blog-block .mainer .headline-text{
+.blog-block .headline-text{
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     font-size: 17px;
@@ -508,41 +507,43 @@ nav .about .headline .text{
     color: white;
 }
 
-.blog-block .mainer .wrapper{
+.blog-block .wrapper{
     margin: 0 auto;
     width: 1210px;
+    padding: 100px 0;
 }
 
-.blog-block .mainer .news-block{
-    height:310px;
+.blog-block .news-block{
+    max-height: 312px;
     width:370px;
     display: inline-block;
-    margin: 43px 15px 0 15px;
+    margin: 43px 15px;
     box-sizing: border-box;
     box-shadow:5px 5px 5px rgba(0,0,0,0.5);
-
+    background-position: center;
 }
 
-.blog-block .mainer .news-block:hover{
+.blog-block .news-block:hover{
     opacity: 0.8;
     cursor: pointer;
 }
 
 .blog-block .news-block .date-block{
     background-color: #494f5a;
+    color: white;
     height: 60px;
     width: 60px;
-    margin: 30px 0 123px 30px;
+    margin: 30px 0 90px 30px;
     opacity: 0.7;
     border-radius: 4px;
     text-align: center;
-    color: white;
 }
 
 .blog-block .date-block .day{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 32px;
+    color: white;
     text-align: center;
 }
 
@@ -550,38 +551,34 @@ nav .about .headline .text{
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
     font-size: 21px;
+    color: white;
     text-align: center;
     display: block;
     margin: -15px 0 0 0;
 }
 
-.text-block-wrapper{
-    margin: 0 -5px 0 6px;
-    padding: 0 10px;
-    width: 100%;
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0) 100%, rgba(0,212,255,1) 100%);
 
+.blog-block .news-block .text-block{
+    padding: 15px;
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.7628635346756152) 29%, rgba(0,0,0,0.6085011185682326) 100%, rgba(0,212,255,1) 100%);
 }
 
-.blog-block .text-block{
-    color: white;
-    width: 307px;
-
-}
-
-.blog-block .title{
+.blog-block .news-block .title{
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    color: white;
 }
 
-.blog-block .author{
+.blog-block .news-block .author{
     font-size: 13px;
     font-family: 'Raleway', sans-serif;
+    color: white;
     font-weight: lighter;
 }
 
-.blog-block .mainer .button{
+.blog-block .button{
     width: 200px;
     height: 55px;
     background-color: #f72b3b;
@@ -595,7 +592,7 @@ nav .about .headline .text{
     box-shadow: 0 5px 5px rgba(0,0,0,0.5);
 }
 
-.blog-block .mainer .button:hover{
+.blog-block .button:hover{
     background-color: #d62635;
     cursor: pointer;
 }
