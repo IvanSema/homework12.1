@@ -71,6 +71,11 @@ nav .content .menu{
     justify-content: space-between;
 }
 
+nav .menu .links{
+    position: fixed;
+    right: 100px;
+}
+
 nav .menu a{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
