@@ -81,7 +81,7 @@ nav .menu a{
     color: #262626;
 }
 
-nav .menu a:hover{
+nav .menu a:hover, nav .menu a:focus{
     border-top: 3px solid #ff6033;
 }
 
@@ -510,7 +510,6 @@ nav .about .headline .text{
 .blog-block .wrapper{
     margin: 0 auto;
     width: 1210px;
-    padding: 100px 0;
 }
 
 .blog-block .news-block{
