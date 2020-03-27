@@ -79,16 +79,16 @@ h1, h2 {
   border-top: 3px solid #ff6033;
 }
 
-.mainer {
+.home .mainer {
   margin: 0 auto;
   min-width: 1200px;
 }
 
-.mainer .content-wrapper {
+.home .mainer .content-wrapper {
   background-color: #f9f8fb;
 }
 
-.mainer .content-wrapper .content {
+.home .mainer .content-wrapper .content {
   min-height: 900px;
   min-width: 1200px;
   padding: 50px;
@@ -98,13 +98,13 @@ h1, h2 {
   background-repeat: no-repeat;
 }
 
-.mainer .content-wrapper .content .headline {
+.home .mainer .content-wrapper .content .headline {
   margin: 260px 0 0 0;
   color: #262626;
   width: 380px;
 }
 
-.mainer .content-wrapper .content .headline .text {
+.home .mainer .content-wrapper .content .headline .text {
   margin: 17px 0 0 0;
   display: block;
   font-size: 17px;
@@ -113,13 +113,13 @@ h1, h2 {
   line-height: 27px;
 }
 
-.mainer .content-wrapper .content .headline .main-headline {
+.home .mainer .content-wrapper .content .headline .main-headline {
   font-size: 60px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
 
-.mainer .content-wrapper .content .headline button {
+.home .mainer .content-wrapper .content .headline button {
   width: 200px;
   height: 55px;
   background-color: #ff6033;
@@ -134,7 +134,7 @@ h1, h2 {
           box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.mainer .content-wrapper .content .headline button:hover {
+.home .mainer .content-wrapper .content .headline button:hover {
   background-color: #fb5324;
 }
 
