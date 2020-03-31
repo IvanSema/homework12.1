@@ -278,7 +278,37 @@ h1, h2 {
   line-height: 27px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 420px) {
+  .about-wrapper .about {
+    padding: 50px 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .about-wrapper .about .about-image {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+  }
+  .about-wrapper .about .headline {
+    margin: 0;
+  }
+  .about-wrapper .about .headline .main-headline {
+    text-align: center;
+    display: block;
+    font-size: 70px;
+    color: white;
+  }
+  .about-wrapper .about .headline .text {
+    text-align: center;
+    display: block;
+    font-size: 17px;
+    max-width: 440px;
+    color: white;
+    line-height: 27px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 550px) {
   .about-wrapper .about {
     padding: 50px 20px;
     -ms-flex-wrap: wrap;
@@ -526,7 +556,36 @@ h1, h2 {
   color: #fff;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 420px) {
+  .services-wrapper {
+    padding: 150px 20px 50px 20px;
+  }
+  .services-wrapper .block-service {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 0;
+  }
+  .services-wrapper .block-service .cell {
+    width: 100%;
+  }
+  .services-wrapper .block-service .cell .content {
+    width: 100%;
+    margin: 20px auto 0 auto;
+  }
+  .services-wrapper .block-service .cell .text-content {
+    width: 100%;
+  }
+  .services-wrapper .block-service .cell .services .services-text {
+    font-size: 60px;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 550px) {
   .services-wrapper {
     padding: 150px 20px 50px 20px;
   }
@@ -642,7 +701,24 @@ h1, h2 {
   background-color: #5585a2;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 420px) {
+  .gallery-wrapper {
+    padding: 50px 20px;
+  }
+  .gallery-wrapper .gallery-block .headline {
+    font-size: 60px;
+    line-height: 80px;
+    margin: 0 0 15px 0;
+  }
+  .gallery-wrapper .gallery-block .row-wrapper {
+    padding: 0;
+  }
+  .gallery-wrapper .gallery-block button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 550px) {
   .gallery-wrapper {
     padding: 50px 20px;
   }
@@ -778,7 +854,35 @@ h1, h2 {
   background-color: #96b92c;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 420px) {
+  .subscribe-wrapper {
+    background-position: 730px 0;
+  }
+  .subscribe-wrapper .subscribe-block {
+    padding: 50px 20px;
+  }
+  .subscribe-wrapper .subscribe-block .headline {
+    font-size: 30px;
+  }
+  .subscribe-wrapper .subscribe-block .headline-text {
+    width: 220px;
+    text-align: justify;
+  }
+  .subscribe-wrapper .subscribe-block form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .subscribe-wrapper .subscribe-block form .subscribe-email {
+    width: 100%;
+  }
+  .subscribe-wrapper .subscribe-block form button {
+    width: 100%;
+    font-size: 15px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 550px) {
   .subscribe-wrapper {
     background-position: 730px 0;
   }
@@ -942,7 +1046,7 @@ h1, h2 {
     margin: 0 0 20px 0;
   }
   .blog-block .headline-text {
-    width: 370px;
+    width: 80%;
     text-align: center;
   }
   .blog-block .wrapper {
@@ -1254,7 +1358,44 @@ h1, h2 {
   line-height: 25px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 420px) {
+  .contact-block {
+    padding: 50px 20px;
+  }
+  .contact-block h1, .contact-block h2 {
+    font-size: 60px;
+  }
+  .contact-block .mainer .headline-text {
+    width: 80%;
+    font-size: 12px;
+  }
+  .contact-block .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .contact-block .content .form-wrapper {
+    margin: 20px 0 0 0;
+    width: 100%;
+  }
+  .contact-block .content .form-wrapper form input {
+    margin: 10px 0;
+  }
+  .contact-block .content .form-wrapper form .form-button {
+    margin-left: 0;
+    width: 100%;
+  }
+  .contact-block .content .form-wrapper form textarea {
+    margin-top: 10px;
+    height: 150px;
+  }
+  .contact-block .content .contact-wrapper .contact {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 550px) {
   .contact-block {
     padding: 50px 20px;
   }
